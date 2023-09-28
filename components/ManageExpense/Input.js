@@ -4,7 +4,6 @@ import { GlobalStyles } from "../../constants/styles";
 function Input({label, style,textInputConfig, invalid}){
 
     let inputStyles = [styles.input];
-    console.log(invalid);
 
     if(textInputConfig && textInputConfig.multiline){
         inputStyles.push(styles.inputMultiline)
